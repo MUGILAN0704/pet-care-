@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.container-first{
+    min-height: 630px;
+    width: 100%;
+    background: url(./img/WhatsApp\ Image\ 2024-01-18\ at\ 4.55.22\ PM.jpeg);
+    object-fit:center;
+    background-size:cover;
+    background-position: center;
+    padding: 1rem;
+}
+
+.container-fluid{
+    gap:1rem;
+    text-align: center;
+    background-color: snow;
+    border-radius: 1rem;
+}
+.container-first .navbar-brand{
+    color: black !important;
+    font-size: 3rem;
+    font-family: "Dancing Script", cursive;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+}
+.container-first .navbar-brand span{
+    color:pink !important;
+}
+.collapse .nav-item{
+    padding: 0rem 1rem;
+    padding-top:0.8rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: black !important;
+}
+.nav-item a{
+    color: black !important;
+} 
+.collapse .nav-item:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    
+  }
+/* <!-- ...first-content... --> */
+
+
+.first-content{
+   padding-top: 10rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    width:26rem;
+} 
+
+
+.first-content button{
+    padding: 1rem;
+    background-color: pink;
+    color:black;
+    border-radius: 1rem;
+    font-weight: 600;
+    border: none;
+}
+.first-content button:hover{
+    border: 2px solid rgb(238, 225, 155);
+}
+
+/* ...second content... */
+
+.container-second{
+    min-height: 617px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 3rem;
+    padding: 7rem;
+}
+.second-f-p img{
+    height:400px;
+    width:30rem;
+    border-radius: 0.4rem;
+
+}
+.p-connect{
+    display:flex;
+    gap:1rem;
+    padding-top: 1.5rem;
+}
+.second-s-p .p-one{
+    width:30rem;
+}
+.p-one p{
+    width:30rem;
+}
+.second-s-p .p-one span{
+    color: pink;
+}
+.p-connect .p-two{
+    height: 200px;
+    width:18rem;
+    background: url(./img/pexels-alice-castro-1870301.jpg);
+    background-size: cover;
+    border-radius:1rem;
+    color: white;
+    padding: 2rem;
+}
+.p-connect .p-three{
+    height: 200px;
+    width: 18rem;
+    background: url(./img/pexels-kateryna-babaieva-7516509.jpg);
+    background-size: cover;
+    border-radius:1rem;
+    color: white;
+    padding: 2rem;
+}
+
+/* ...service... */
+
+#service{
+    width: 100%;
+}
+.carousel-caption h5{
+    color:white;
+    font-size:3rem;
+    font-weight: 600;
+}
+.head span{
+border-bottom: 0.3rem solid yellow;
+}
+.head{
+    padding: 1rem;
+    padding-bottom: 3rem;
+}
+.head-2 span{
+    border-bottom: 0.3rem solid yellow;
+    }
+    .head-2{
+        padding: 1rem;
+    }
+    
+.carousel-caption p{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* <!-- sales --> */
+
+#dog-sales{
+    min-height: 617px;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom:5rem;
+}
+.card{
+    text-align: center;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.card .btn{
+    text-align: center;
+    background-color: red;
+    color: white;
+} 
+
+/* <!-- dog food --> */
+
+.dog-food{
+    min-height: 650px;
+    width: 100%;
+}
+.dog-food-content img{
+    width: 100%;
+    
+}
+/* <!-- addition --> */
+
+#pet-care{
+    min-height: 650px;
+    width: 100%;
+   
+    
+}
+#pet-care h1{
+    text-align: center;
+    font-weight: bold;
+}
+#pet-care .care-ser{
+    display: flex; 
+    align-items: center;
+    justify-content:center;
+    padding: 3rem;
+    gap: 2rem;
+
+}
+.care-part-1{
+    width: 30%; 
+    text-align: center;
+}
+.care-part-2{
+    width: 30%;
+    text-align: center;
+    
+}
+.care-part-3{
+    width: 30%;
+    text-align: center;
+    
+}
+.care-part-1 .care-1{
+    background:url(./img/add-2.jpg);
+    background-size:cover;
+    height:500px;
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius:2rem;
+    padding-top: 1rem;
+}
+.care-part-1 .care-2{
+    background: url(./img/add-3.jpg);
+    background-size:cover;
+    height:500px;
+    width: 100%;
+    border-radius:2rem;
+    padding-top: 1rem;
+
+}
+.care-part-2 .care-1{
+    background: url(./img/add-1.jpg);
+    background-size:cover;
+    height:500px;
+    width: 100%;
+    margin-bottom:2rem;
+    border-radius:2rem;
+    padding-top: 1rem;
+
+}
+.care-part-2 .care-2{
+    background: url(./img/add-1\ \(5\).jpg);
+    background-size:cover;
+    height:500px;
+    width: 100%;
+    border-radius:2rem;
+    padding-top: 1rem;
+
+}
+.care-part-3 .care-1{
+    background: url(./img/add-1\ \(1\).jpg);
+    background-size:cover;
+    height:500px;
+    width: 100%;
+    margin-bottom:2rem;
+    border-radius:2rem;
+    padding-top: 1rem;
+
+}
+.care-part-3 .care-2{
+    background: url(./img/add-4.jpg);
+    background-size:cover;
+    height:500px;
+    width: 100%;
+    border-radius:2rem;
+    padding-top: 1rem;
+
+}
+.care-part-1 h1{
+color: white;
+}
+.care-part-1 button{
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: white;
+    
+}
+.care-part-2 h1{
+    color: white;
+}
+.care-part-2 button{
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: white;
+}
+.care-part-3 h1{
+    color: white;
+}
+.care-part-3 button{
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: white;
+}
+
+
+/* <!-- pet-Essentials --> */
+
+.pet-Essentials{
+    min-height: 650px;
+    width: 100%;
+}
+.pet-connect{
+    display: flex;
+    padding-top:2rem;
+}
+.Essen-1,.Essen-2{
+    width: 50%;
+}
+.Essen-1 img{
+    height: 450px;
+    width: 100%;  
+}
+.Ess-1,.Ess-2{
+    display: flex;
+}
+.Ess-1 img,.Ess-2 img{
+    width: 50%;
+    height:225px;
+}
+
+/* <!-- contact --> */
+
+.contact{
+    min-height: 650px;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    gap: 3rem;
+}
+.con-profile{
+    width:40%;
+    background:url(./img/dog-looking-up.jpg);
+    background-size:cover;
+    object-fit: cover;
+    text-align: center;
+    padding: 2.5rem;
+    border-radius: 1rem;
+}
+form{
+    display:grid;
+    
+}
+.con-profile input,select,textarea{
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    border: none;
+    margin-bottom:1rem;
+    
+
+}
+#city{
+    margin-bottom:1rem;
+    color: silver;
+}
+
+input ::placeholder{
+    color:silver
+}
+select option{
+    color: black;
+}
+.con-profile button{
+    text-align: center;
+    padding: 1rem 3rem;
+    font-weight: bold;
+    border-radius: 2rem;
+    background-color:pink;
+    border: none;
+    margin:3rem 0;
+    margin-left:14rem;
+
+}
+.con-profile p{
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+.con-2{
+    width:30%;
+}
+.con-2 .con-p-1{
+    background: url(./img/side-view-dog.jpg);
+    height: 300px;
+    object-fit:center;
+    background-size:cover;
+    background-position: center;
+    border-radius: 1rem;
+    margin-bottom:2.2rem;
+    text-align: center;
+
+}
+.con-2 .con-p-2{
+    background: url(./img/frame-concept-with-dog.jpg);
+    height:300px;
+    object-fit:center;
+    background-size:cover;
+    background-position: center;
+    border-radius: 1rem;
+}
+.con-3{
+    background: url(./img/dog-with-bone.jpg);
+    width: 30%;
+    object-fit:center;
+    background-size:cover;
+    background-position: center;
+    border-radius: 1rem;
+}
+.con-p-1 h1{
+    padding:0.5rem;
+    font-weight: 500;
+    font-size: 2rem;
+
+    
+}
+.con-p-1 p{
+    padding:0.5rem;
+    text-align:left;
+    width: 10rem;
+    font-weight: 500;
+     padding-top: 3rem;
+}
+.con-p-2 p{
+    padding:0.5rem;
+    text-align:left;
+    width:0rem;
+    font-weight: 500;
+     padding-top: 3rem;
+}
+.con-3 h1{
+    padding:0.5rem;
+    font-size: 2rem;
+}
+.con-3 button{
+    padding:0.6rem 1rem;
+    font-weight: 400;
+    border-radius: 1.5rem;
+    background-color: white;
+    border: none;
+}
+.contact-pro1{
+    display: none;
+}
+
+/* <!-- service-add --> */
+
+.service-add{
+    background: url(./img/b-1.jpg);
+    background-size: cover;
+    object-fit: cover;
+    min-height: 700px;
+    width: 100%;
+    padding-top: 12rem;
+    padding-left: 6rem;
+}
+.per-one{
+    display: flex;
+    gap: 5rem;
+    margin-bottom:3rem;
+}
+.per-two{
+     display: flex;
+     gap: 5rem;
+}
+.per-one .per-train,.per-grom{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.per-two .per-doct,.per-walk{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.per-con{
+    display: flex;
+}
+.service-add button{
+    padding:1rem 2rem;
+    border-radius: 30px;
+    border:none;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-left: 7rem;
+}
+.per-one .text{
+    font-weight:bold;
+    font-size:1rem;
+}
+.per-one span{
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+.per-two .text{
+    font-weight:bold;
+    font-size:1rem;
+}
+.per-two span{
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+
+/* <!-- Reviews --> */
+ 
+.review{
+    min-height: 650px;
+    width: 100%; 
+    background: url(./img/ba-1\ \(1\).jpg);
+    background-size: cover;
+}
+.slide-wrapper{
+    width: 100%;
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    aspect-ratio: 16/9;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-snap-type: smooth;
+    transform: scale(0.95);
+    
+    
+}
+.slide-wrapper::-webkit-scrollbar{
+    display: none;
+}
+.wrap{
+   width:100%;
+   height:85%;
+   background-color: aliceblue;
+   border-radius: 2rem;
+   padding: 2rem 1rem;
+   display:flex;
+   align-items: center;
+   flex-direction: column;
+   margin: 0 2rem;
+   text-align: center;
+}
+
+.wrap img{
+    height:20rem;
+    width:16rem;
+
+}
+.text-content p{
+    height: 150px;
+}
+
+/* <!-- gmail --> */
+
+.mail{
+    min-height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.mail-para{
+    padding: 2rem;
+    font-weight: bold;
+}
+.mail-para h2{
+    font-weight: bold;
+}
+.mail-para span{
+    color: yellow;
+
+}
+.mail-id{
+    display: flex;
+    gap: 6rem;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    
+}
+.mail-id a{
+    text-decoration: none !important;
+    color: black ;
+    font-size: 1.5rem;
+    
+}
+.mail-id p{
+    padding: 0.5rem 2rem;
+}
+.mail-id a:hover{
+    color: black;
+}
+
+.mail-id button{
+    padding: 0.7rem 2rem;
+    font-weight: bold;
+    background-color:yellow;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+/* <!-- footer --> */
+
+.footer{
+    min-height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap:5rem;
+    padding: 2rem;
+    background: url(./img/footer.jpg);
+    background-size: cover;
+}
+.foot h4{
+    font-weight: bold;
+}
+.foot-1 h4{
+    font-weight: bold;
+}
+.foot-icon i{
+    font-size:1.5rem;
+}
+.foot p{
+    font-weight: 600;
+} 
+.foot-1 p{
+    font-weight: 600;
+} 
+.foot-con{
+    display: flex;
+    gap: 5rem;
+}
+
+
+
+
+
+                                                                                                                     
+
+
+
+                 
+
+ 
