@@ -1,0 +1,18 @@
+@media screen and (min-width:300px) and (max-width:500px) {
+    .container-first .navbar-brand{
+        font-size:1.5rem;
+    }
+    .cart-count{
+        top: 7px;
+        left: 25px;
+        padding: 5px;
+        height: 18px;
+        width: 18px;
+    }
+    .cart-menu{
+        width: 311px;
+        padding: 40px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:800px) {
+}

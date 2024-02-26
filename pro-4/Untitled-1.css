@@ -1,0 +1,297 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  background: url(./cart-images/bk-1.jpg);
+  background-size: contain;
+   background-position: center;
+}
+.container-first{
+  width: 100%;
+}
+
+.navbar{
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  text-align: center !important;
+  background-color:whitesmoke!important;
+}
+.navbar-brand{
+  margin-right: 0rem !important;
+}
+nav{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container-first .navbar-brand{
+  color: black !important;
+  font-size: 2.5rem;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+.navbar-toggler:focus{
+  box-shadow:none !important;
+}
+.navbar-light .navbar-toggler {
+  border-color: rgba(0,0,0,0) !important;
+}
+.container-first .navbar-brand span{
+  color:pink !important;
+}
+.collapse .nav-item{
+  padding: 0rem 0.5rem;
+  padding-top:0.8rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: black !important;
+}
+.collapse .nav-item:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+.nav-item a{
+  color: black !important;
+} 
+.navbar-collapse {
+  flex-grow:0 !important;
+}
+
+.box{
+  color: white;
+  width:30px;
+  height:30px;
+  text-align: center;
+  background-color: blue;
+  position: relative;
+}
+.cart-count{
+  position: absolute;
+  top:17px;
+  left:25px;
+  padding:6px;
+  height: 20px;
+  width: 20px;
+  line-height: 8px;
+  background-color: blueviolet;
+  border-radius: 50px;
+  z-index: 99;
+
+}
+#cart-icon{
+  padding-top: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+
+}
+.menu{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.cart-menu{
+  position: fixed;
+  top: 0;
+  right: 100%;
+  width: 400px;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+  background-color: white;
+  z-index: 100;
+  background: url(./cart-images/dog-looking-up.jpg);
+  background-size:cover;
+                                                                   
+}
+.cart-active{
+  right: 0;
+  transition: 0;
+}
+.cart-title{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.cart-box{
+  display: grid;
+  grid-template-columns: 32% 50% 18%;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
+}
+.cart-box img{
+  width:80px;
+  height:80px;
+  object-fit: cover;
+  border: 2px solid rgba(0, 0, 0, 0.1) ;
+  padding: 5px;
+}
+.price-box{
+  display: flex;
+  justify-content: space-between;
+}
+.detail-box{
+  display: grid;
+  row-gap: 0.5rem;
+}
+.cart-box .card-title{
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: darkviolet;
+  font-weight: 500;
+}
+.cart-price{
+  font-weight: 500;
+}
+.cart-quantity{
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  width: 2.4rem;
+  text-align: center;
+  font-size: 1rem;
+}
+.cart-remove{
+  font-size: 24px;
+  color: purple;
+  cursor: pointer;
+}
+.total{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+
+}
+.total-title{
+  font-size: 1rem;
+  font-weight:bold;
+
+}
+.total-price{
+  margin-left: 0.5rem;
+
+}
+#cart-close{
+  position: absolute;
+  top: 0;
+  right: 0.8rem;
+  font-size: 2rem;
+
+  
+}
+/* //////////////////// */
+.container{
+  max-width: 1200px;
+  padding: 4rem;
+  margin: auto;
+  width: 100%;
+  
+}
+
+h2.title{
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color:#ffffff;
+}
+
+.shop-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(320px,auto));
+  gap:3.5rem;
+  padding-top: 6rem;
+  justify-content: center;
+  align-content: center;
+}
+
+.food-box{
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0 1px 4px rgba(40, 37, 37, 0.1);
+  border-radius: 3px;
+  text-align:center;
+}
+
+.food-img{
+  height: 200px;
+  width: 200px;
+ 
+}
+.food-img:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.food-title{
+  font-size: 1rem;
+  padding-top:1rem;
+  font-weight: 600;
+  color:#ff6348;
+}
+
+.food-price{
+  font-weight:500 ;
+}
+.add-cart{
+  background-color:red;
+  color:white;
+  border-radius:1rem;
+  font-weight: 600;
+  border: none;
+  width: 8rem;
+  padding: 0.3rem;
+  
+}
+
+.add-cart i{
+  display:none;
+  color: white;
+  width: 7rem;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 4px 12px;
+}
+.add-cart:hover i{
+  display: block;
+}
+.add-cart:hover span{
+  display:none;
+}
+.offer{
+  display: flow;
+  padding-bottom: 1rem;
+}
+.btn-buy {
+  padding: 12px 20px;
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.cart-food-title{
+  font-size: 1rem;
+  padding-top: 1rem;
+  font-weight: 600;
+  color: #ff6348;
+}
+.total{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+
+}
